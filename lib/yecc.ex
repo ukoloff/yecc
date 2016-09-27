@@ -1,0 +1,2 @@
+defmodule Yecc do
+end
