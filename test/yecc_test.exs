@@ -2,7 +2,7 @@ defmodule YeccTest do
   use ExUnit.Case
   doctest Yecc
 
-  test "the truth" do
-    assert 1 + 1 == 2
+  test "build list" do
+    [1, [2, :foo], :bar] = Yecc.parse "[1,[2, :foo], :bar] "
   end
 end
